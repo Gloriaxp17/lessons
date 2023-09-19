@@ -1,0 +1,28 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+#end-of-article{
+    color: darkslategray;
+}
+.preview{
+    color: blueviolet;
+}
+a{
+    color: aqua;
+}
+.second-thought{
+    color: darkolivegreen;
+} 
+div p{
+    color: blue;
+}
+
+.first-thought{
+    color: tomato;
+}
+.link{
+    color: yellowgreen;
+}
+.add{
+    color: red;
+}
