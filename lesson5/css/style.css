@@ -1,0 +1,92 @@
+
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+    font-family:"FreeSans", sans-serif;
+    color: #0c0c0e;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.link {
+    color: #5050c2;
+}
+h2.sub-title{
+    text-align: center;
+    color: #5c1579;
+    font-size: 35px;
+    font-weight: 410;
+    line-height: 1.2;
+    text-shadow:  2px 2px 2px #3f4602;
+    text-decoration: underline;
+}
+.title, .sub-title {
+    font-family:"FreeSans", monospace;
+}
+.grey-text{
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+    line-height: 1.46;
+}
+.grey-list{
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7D7D7D;
+    line-height: 1.46;
+}
+.title{
+    text-align: center;
+    font-family: "FreeSans";
+    color: #2a2a2c;
+font-weight: 700;
+font-size: 50px;
+line-height: 1.27;
+}
+.big-title{
+color: #37393F;
+font-family: "Poppins";
+font-weight: 700;
+font-size: 40px;
+line-height: 1.27;
+}
+.main-title{
+    color: #37393F;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.27;
+    }
+    h3{
+        color: #070c41;
+        font-family: "Poppins";
+        font-weight: 420;
+        font-size: 30px;
+        line-height: 1.5; 
+        text-shadow: 3px 3px 3px #000; 
+    }
+    h3.sub-title{
+        color: #6B77E5;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.27; 
+        text-shadow: none;
+    }
+    .yellow{
+        color: #e09d20;
+        font-family: "FreeSans" ,sans-serif;
+        font-weight: 700;
+    }
+    span{
+    color: rgb(14, 1, 8);
+    font-weight: 700;
+    }
+    h5{
+        text-align: center;
+    }
