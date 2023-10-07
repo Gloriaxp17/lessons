@@ -1,0 +1,261 @@
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+
+
+body{
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.46;
+    font-weight: 400;
+    color: #37393F;
+    width: 1920px;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 350px;
+    }
+    .cube{
+        width: 0;
+        height: 0;
+        border: 8.5px solid  hwb(165 25% 13%);
+        display: inline-block;
+        vertical-align: middle;
+    }
+.licencing h3 {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.licencing{
+    text-align: center;
+    margin-bottom: 70px;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.icons h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.icons p{
+    margin-bottom: 32px;
+}
+span{
+    color: #40DDB6;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.phosphor {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.photohrafy h2 ,
+.fonts h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.photohrafy h2{
+    margin-bottom: 11px;
+}
+.photohrafy p{
+    margin-bottom: 24px;
+}
+.pexel h2 ,
+.unsplash h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.pexel h2{
+    margin-bottom: 15px;
+}
+.unsplash p,
+.pexel p{
+    color: #40DDB6;
+    margin-bottom: 45px;
+}
+.unsplash h2{
+    margin-bottom: 22px;
+}
+.unsplash p{
+    margin-bottom: 120px;
+}
+.fonts span{
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.46;
+    font-weight: 500;
+}
+.fonts h2{
+    margin-bottom: 20px;
+}
+.fonts p{
+    margin-bottom: 155px;
+}
+.container2 {
+    max-width: 830px;
+    margin: 0 350px 200px 740px;
+    color: #7d7d7d;
+}
+.container2 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.27;
+    color: #37393F;
+}
+.subtitle {
+    margin-bottom: 15px;
+}
+.first-p{
+    margin-bottom: 35px;
+}
+.block1 {
+    margin-bottom: 38px;
+}
+.list1,
+.list2,
+.list3, 
+.list4{
+    margin-bottom: 30px;
+}
+ul{
+    margin-bottom: 38px;
+}
+.block2 {
+    margin-bottom: 38px;
+}
+.container3 {
+    max-width: 1240px;
+    font-family: "Causten", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.68;
+    color: #807D7E;
+    margin-left: 250px;
+}
+.mark{
+    height: 26.5px;
+    width: 6px;
+    border:4px solid  #8A33FD;
+    border-radius: 25%;
+    display: inline-block;
+        vertical-align: middle;
+        margin-bottom: -75px;
+}
+.name {
+    color: #3C4242;
+    font-size: 28px;
+    font-family: "CoreSansC", sans-serif;
+    margin-bottom: 35px;
+    width: 552px;
+    display: inline-block;
+}
+.text p{
+    margin-bottom: 23px;
+}
+.text{
+    margin-bottom: 28px; 
+}
+.subtitle,
+.subtitle2,
+.see-more{
+font-family: "CoreSansC", sans-serif;
+font-weight: 700;
+}
+.subtitle{
+    margin-bottom: 38px;
+}
+.subtitle2 {
+    margin-bottom: 30px;
+}
+.text2 p{
+    margin-bottom: 30px;
+}
+.euphoria{
+    font-weight: 700;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    line-height: 1.68;
+    color: #807D7E;
+}
+.content{
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.container4{
+    max-width: 1103px;
+    margin-left: 385px;
+    font-family: "Cormorant+Infant", serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #606060;
+    line-height: 1;
+}
+.jewerelly {
+    color: #D58417;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.jewerrelly2 {
+    font-size: 64px;
+    color: #000000;
+    margin-bottom: 37px;
+}
+.jewerelly-text {
+    max-width: 490px;
+    line-height: 1.4;
+}
+.photo{
+    width: 525px;
+    vertical-align: middle;
+}
+.content2{
+    width: 503px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 75px;
+    margin-bottom: 100px;
+}
+.container5 {
+    width: 1000px;
+    height: 1000px;
+    background-color: #40DDB6;
+    border: 5px dotted #8A33FD;
+}
+.border {
+width: 300px;
+height: 300px;
+background-color: #D58417;
+border-radius: 50%;
+box-shadow:0 0 20px 60px #c94571,
+inset 5px 5px 100px 20px #ce1c1c,
+inset 0 0 100px 20px #d66161; ; 
+margin: 70px;
+}
+.outline{
+    margin: 150px;
+    max-width: 200px;
+    max-height: 200px;
+    outline: 5px double rgb(77, 213, 23); 
+    border-radius: 20%;
+opacity: 0.9;
+    box-shadow: inset 0 0 10px 5px #000000;
+    overflow: auto;
+}
