@@ -19,7 +19,7 @@
     margin: 0 auto 100px;
     max-width: 1240px;
     max-height: 640px;
-    background: url("../img/back.svg") 0 0 /cover no-repeat;
+    background: url("../img/background.jpg") 0 0 /cover no-repeat;
     border: 0.1px solid #FFFFFF;
 }
 .subtitle {
