@@ -11,6 +11,9 @@ a{
 img{
     width: 100%;
 }
+header{
+    margin-top: 50px;
+}
 .consulting1 {
     max-width: 635px;
     margin: 0 auto 100px;
@@ -27,37 +30,6 @@ img{
     background: url("../img/blue.jpg")0 0 no-repeat;
     width: 12px;
     height: 12px;
-}
-.title-consulting,
-.title-consulting2 {
-    max-width: 414px;
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.21;
-    color: #37393F;
-}
-.title-consulting2{
-    max-width: 1220px;
-    text-align: center;
-}
-.consalting2 .head{
-    margin-bottom: 41px;
-}
-.head{
-    margin-bottom: 20px;
-}
-.head>*:not(:last-child){
-    margin-bottom: 20px;
-}
-.consulting-text,
-.consulting-boxes p,
-.block-text {
-    font-family: "Inter",sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #7D7D7D;
-    line-height: 1.46;
 }
 .consulting-text{
     margin-bottom: 48px;
@@ -80,7 +52,46 @@ margin-bottom: 48px;
 }
 .consalting-box1 p,
 .consalting-box2 p{
-    margin-left: 84px;
+    padding-left: 50px;
+}
+.our-mission::before,
+.our-vision::before{
+    content: "";
+    background: url("../img/vector.jpg") 0 center no-repeat;
+    width: 28px;
+    height: 28px;
+    padding-left: 50px;
+}
+.title-consulting,
+.title-consulting2 {
+    max-width: 414px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    color: #37393F;
+}
+.title-consulting2{
+    max-width: 1220px;
+    text-align: center;
+}
+.consulting2 .head{
+    margin-bottom: 73px;
+}
+.consulting1 .head{
+    margin-bottom: 20px;
+}
+.head>*:not(:last-child){
+    margin-bottom: 20px;
+}
+.consulting-boxes p,
+.consulting-text,
+.block-text {
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7D7D7D;
+    line-height: 1.46;
 }
 .benefits-img{
     max-width: 330px;
@@ -89,22 +100,12 @@ margin-bottom: 48px;
     }
     .benefits-li li::before{
         content: "";
-        background: url("../img/vector.jpg") 0 7px no-repeat;
+        background: url("../img/vector.jpg")  50%  no-repeat;
         width: 27px;
         height: 27px;
-        padding-left: 30px;
+        margin-right: 8px;
+        margin-bottom: -7px;
     }
-    .benefits-li li{
-        min-height: 28px;
-    }
-.our-mission ,
-.our-vision::before{
-    content: "";
-    background: url("../img/vector.jpg") 32px center no-repeat;
-    width: 28px;
-    height: 28px;
-    padding-left: 84px;
-}
 .consalting-box2 {
     border:1px solid #E3E3E3;
     max-width: 675px;
@@ -158,6 +159,7 @@ text-align: center;
     padding: 58px 43px;
     display: inline-block;
     text-align: center;
+    padding-top: 36px;
 }
 .consulting-block1 ,
 .consulting-block2{
@@ -170,8 +172,8 @@ text-align: center;
 margin-bottom: 20px;
 }
 .consalting-blocks{
-    padding-top: 36px;
     font-size: 0;
+    padding-top: 36px;
 }
 .block-title {
     font-family: "Poppins",sans-serif;
@@ -224,8 +226,6 @@ margin-bottom: 20px;
 .text-block >*:not(:last-child) {
 margin-bottom: 20px;
 }
-.title-consulting3 {
-}
 .text-block,
 .text-block2 {
     margin-bottom: 42px;
@@ -277,13 +277,13 @@ margin-top: -10px;
     line-height: 1.15;
     display: inline-block;
 }
-.title-jew ::after{
-    content: "";
-	display: block;
-	height: 3px;
-	width: 67%;
-	background-color: #78473B;
-	margin-top: 13px;
+.title-jew::after{
+content: "";
+display: block;
+width: 64%;
+height: 3px;
+background-color: #78473b;
+margin-top: 12px;
 }
 .right-block{
     font-size: 0;
@@ -332,37 +332,180 @@ margin-bottom: 0;
     line-height: 1.13;
     margin-bottom: 31px;
 }
-.cons-list{
-    max-width: 675px;
+.game1{
+    visibility: hidden;
 }
-.cons-list :nth-child(odd){
-    font-family: "Poppins",sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    color: #37393F;
-    line-height: 1.2;
-    white-space: nowrap;
+.game {
+    width: 1000px;
+    height: 1000px;
+    background: url("../img/fone.jpg")round;
+    margin: 0 auto 100px;
+    box-shadow: 0  2px  29px #646277;
+    padding: 50px;
+    font-size: 0;    
 }
-.cons-list :nth-child(even){
+.container-game>*{
+    display: inline-block;
+    box-shadow: inset 0 0 70px #000000;
+    border:1px solid #f4f4f400;
+}
+.start {
+    font-family: "italic", cursive;
+font-size: 25px;
+text-align: center;
+padding: 32px 0;
+width: 100px;
+height: 100px;
+}
+.line1{
+width: 650px;
+height: 100px;
+vertical-align: middle;
+margin-top: -10px;
+}
+.line2 {
+width: 100px;
+height: 300px;
+vertical-align: top;
+}
+.line3 {
+    width: 700px;
+height: 100px;
+
+vertical-align: bottom;
+margin-left: 150px;
+}
+.line4 {
+    width: 100px;
+height: 300px;
+
+margin-top: -100px;
+margin-left: 50px;
+}
+.line5 {
+    width: 400px;
+    height: 100px;
+vertical-align: bottom;
+}
+.line6 {
+    width: 100px;
+    height: 100px;
+}
+.line7 {
+    width: 700px;
+    height: 200px;
+}
+    .line7:hover{
+    font-family: "italic", cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 10% 200px;
+    margin-left: 50px;
+}
+[class^="line"] {
+    visibility: hidden;
+}
+.start:hover ~ .line1,
+.line1:hover {
+visibility: visible;
+}
+.line1:hover ~ .line2,
+.line2:hover {
+visibility: visible;
+}
+.line2:hover ~ .line3,
+.line3:hover {
+visibility: visible;
+}
+.line3:hover ~ .line4,
+.line4:hover {
+visibility: visible;
+}
+.line4:hover ~ .line5,
+.line5:hover {
+visibility: visible;
+}
+.line5:hover ~ .line6,
+.line6:hover {
+visibility: visible;
+}
+.line6:hover ~ .line7,
+.line7:hover {
+visibility: visible;
+}
+.id{
+    text-align: center;
+    margin:0 auto 100px;
+    display: block;
+}
+.show-game {
+    min-width: 1000px;
+    min-height: 100px;
     font-family: "Inter",sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #7D7D7D;
-    line-height: 1.46;
+    color: #37393F;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    background: url("../img/fone.jpg")0 center / cover;
+    display: inline-block;
+    box-shadow: 0 2px 29px #37393F;
+    padding-top:30px ;
 }
-.cons-list :nth-child(odd)::before{
-    content: "";
-    background: url("../img/vector.jpg") 32px center no-repeat;
-    width: 28px;
-    height: 28px;
-    padding-left: 84px;
+.game1:target{
+    visibility: visible;
 }
-.cons-list  >*:not(:last-child){
-    margin-bottom: 20px;
+.back-consulying1:hover,
+.back-consulying2:hover,
+.back-consulying3:hover,
+.back-jewellery:hover,
+.show-game:hover{
+    color: #2b2c2e;
+    font-size: 45px; 
 }
-.cons-list :nth-child(n+1) {
-    border:1px solid #E3E3E3;
-    max-width: 675px;
-    padding: 28px 41px 28px 38px;
-    margin-bottom: 31px;
+.back-consulying1:active,
+.back-consulying2:active,
+.back-consulying3:active,
+.back-jewellery:active,
+.show-game:active{
+    color: #666a70;
 }
+.back-consulying1:visited,
+.back-consulying2:visited,
+.back-consulying3:visited,
+.back-jewellery:visited,
+.show-game:visited{
+    color: #6180ad;
+}
+.back-consulying1,
+.back-consulying2,
+.back-consulying3,
+.back-jewellery{
+    font-family: "Inter",sans-serif;
+    color: #37393F;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 20px;
+}
+.menu>*:not(:last-child){
+    margin-bottom: 40px;
+}
+.menu {
+    margin: 0 auto 100px;
+    max-width: 1000px;
+}
+.menu>*:focus{
+    color: #4f48b1;
+}
+.menu div:nth-child(odd){
+    box-shadow: 0 2px 29px #232425; 
+    background: url("../img/fone.jpg")0 center / cover;
+}
+.menu div:nth-child(even){
+    box-shadow: 0 2px 29px #6574a3; 
+    background: url("../img/fone.jpg");
+}
+.menu div:last-of-type{
+    background-color: #a7a5a5;
+    }
