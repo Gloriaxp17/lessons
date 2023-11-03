@@ -1,0 +1,222 @@
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+.wrapper{
+    overflow: clip;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+main{
+    margin-top: 200px;
+}
+.card:hover .card__link{
+    visibility: visible; 
+    width: 386px;
+    height: 532px;
+    background-color: #6b77e5cb;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card__link {
+position: relative;
+visibility: hidden;
+}
+.card__link:hover{
+    visibility: visible;
+}
+.card__link-instagram {
+    position: absolute;
+    left: 108px;
+    bottom:244px;
+}
+.card__link-facebook {
+    position: absolute;
+    left: 168px;
+    bottom:244px;
+}
+.card__link-twitter {
+    position: absolute;
+    left: 228px;
+    bottom:244px;
+}
+.consulting{
+    max-width: 1250px;
+    margin: 0 auto 100px;
+}
+.card {
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+}
+.card__link img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card:hover{
+    width: 386px;
+    height: 100%;
+    background-color: #6b77e5cb;
+}
+.card--margin{
+    margin:0 31px 31px 31px;
+}
+.card--margin-bottom{
+    margin: 0 0 31px 0;
+} 
+.card-info__subtitle--designer{
+    margin-left: 60px;
+}
+    .card-info__subtitle--margin{
+        margin-left: 15px;
+    }
+    .card-info__subtitle--margin-bigger{
+        margin-left: 35px;
+    }
+
+.card__img {
+    max-width: 386px;
+    min-height: 532px;
+}
+.card-info__block {
+    width: 341px;
+    min-height: 114px;
+    background-color:#fff ;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+
+}
+.card-info__list {
+    position: absolute;
+    bottom: 42px;
+    left: 92px;
+}
+.card-info__list--margin{
+    margin-left: -20px;
+}
+.card-info__title{
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #37393F;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    min-width: 203px;
+}
+.card-info__subtitle {
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+    line-height: 1.35;
+}
+.blocks-sticky {
+    max-width: 1200px;
+    margin: 0 auto 100px;
+}
+.first-block__banner,
+.second-block__banner {
+    width: 100%;
+    height: 100px;
+    background:url("../img/vector.jpg");
+    position: sticky;
+    top: 100px;
+    left: 0;
+}
+.first-block__text,
+.second-block__text {
+    font-family: "Italic",cursive;
+    color: #7D7D7D;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.second-block__banner {
+    background:url("../img/background.jpg") ; 
+}
+.menu-container {
+    width: 100%;
+    margin: 0 auto 100px;
+    background-color: #7D7D7D;
+    z-index: 1;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu__logo{
+height: 50px;
+padding-left: 500px;
+}
+.menu__item {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 50px;
+    position: relative;
+}
+.menu__item:hover{
+    color: rgb(24, 23, 23);
+    text-shadow:0 0 10px #27272c;
+    
+}
+.menu__item:hover .navigation{
+    visibility: visible;
+}
+.navigation{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding-top: 5px;
+    background-color: #9c8d8d;
+    white-space: nowrap;
+    visibility: hidden;
+    
+}
+.navigation__item:hover {
+color: #fff;
+}
+.navigation__item {
+    padding-bottom: 10px;
+    position: relative;
+}
+.side-bar {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    visibility: hidden;
+}
+.side-bar__item:hover {
+    color: #27272c;
+}
+.navigation__item:hover .side-bar__item {
+    visibility: visible;
+    background-color: #ad6060;
+    padding: 10px;
+}
+.footer-container{
+position: relative;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #7D7D7D;
+    z-index: 1;
+    padding: 30px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
