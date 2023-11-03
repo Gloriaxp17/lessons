@@ -89,12 +89,14 @@ visibility: hidden;
     position: absolute;
     bottom: 22px;
     left: 22px;
+    z-index: 1;
 
 }
 .card-info__list {
     position: absolute;
     bottom: 42px;
     left: 92px;
+    z-index: 2;
 }
 .card-info__list--margin{
     margin-left: -20px;
