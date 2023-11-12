@@ -1,0 +1,265 @@
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+
+.car {
+    width: 50%;
+    margin:0 auto 100px;
+
+}
+.box-glass {
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid rgb(214, 233, 47);
+    border-left: 200px solid transparent;
+    border-radius: 40px 0 150px ;
+    transform: rotate(243deg);
+}
+.glass {
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid rgb(42, 43, 39);
+    border-left: 200px solid transparent;
+    border-radius: 40px 0 150px ;
+    transform: rotate(243deg);
+    transform: scale(.8);
+    position: relative;
+    bottom: -20px;
+    right: 200px;
+}
+.line {
+    width: 20px;
+    height: 100px;
+    background-color:  rgb(214, 233, 47);
+    position: relative;
+    bottom: 300px;
+    left: 75px;
+}
+.body {
+    width: 700px;
+    height: 100px;
+    background-color:rgb(214, 233, 47) ;
+    border-radius: 2000px 1800px 0 0;
+    transform: skewX(30deg);
+    position: relative;
+    bottom: 305px;
+    right: 220px;
+}
+.bumper {
+    width: 720px;
+    height: 50px;
+    border-radius: 0 50px 50px 50px ;
+    background-color: rgb(219, 165, 114);
+    position: relative;
+    bottom: 305px;
+    right: 190px;
+}
+.line2 {
+    width: 270px;
+    height: 50px;
+    border-radius:50px ;
+    background-color: rgb(219, 165, 114);
+    position: relative;
+    bottom: 520px;
+    left: 80px;
+}
+.wheel {
+    width: 130px;
+    height: 130px;
+    background-color: rgb(151, 158, 158);
+    border: 30px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 520px;
+    left: 280px;
+}
+.wheel2 {
+    width: 130px;
+    height: 130px;
+    background-color:  rgb(151, 158, 158);
+    border: 30px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 650px;
+    right: 140px;
+}
+.light-left {
+    width: 40px;
+    height: 50px;
+    background-color: rgb(136, 10, 10);
+    border-radius: 40%;
+    position: relative;
+    bottom: 425px;
+    right: 205px;
+}
+.light-right {
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-bottom: 40px solid rgb(104, 104, 101);
+    position: relative;
+    bottom: 470px;
+    left: 420px;
+    border-radius: 20%;
+}
+.tuning {
+        width: 30px;
+        height: 100px;
+        background-color:rgb(214, 233, 47) ;
+        transform: rotate(140deg);
+        position: relative;
+        bottom: 930px;
+        right: 150px;
+}
+.tuning2 {
+    width: 0;
+    height: 0;
+    border-right: 80px solid transparent;
+    border-bottom: 60px solid rgb(214, 233, 47);
+    position: relative;
+        bottom: 1067px;
+        right: 190px;
+    border-radius: 20%;
+}
+.shine{
+    width: 0;
+    height: 0;
+    border-left: 260px solid transparent;
+    border-bottom: 100px solid rgba(231, 231, 49, 0.789);
+    position: relative;
+    bottom: 1050px;
+    left: 500px; 
+    visibility: hidden;
+}
+.car:hover .shine{
+visibility: visible;
+} 
+.box-car{
+    width: 100%;
+    height: 300px;
+    background: url("../img/cartoon.jpg");
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.box-practice {
+    width: 900px;
+    background-color: rgba(169, 218, 202, 0.589);
+    font-size: 0;
+    margin: 0 auto 100px;
+}
+.transform{
+    display: inline-block;
+    perspective: 500px;
+transform-style: preserve-3d;
+}
+
+.transform--margin{
+    margin: 25px;
+}
+.transform__title,
+.transform__flip,
+.transform__flip-back {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.transform__transform-origin-fone,
+.transform__matrix-fone,
+.transform__skew-fone,
+.transform__rotate-fone,
+.transform__translate-fone,
+.transform__scale-fone,
+.transform__style-fone {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(202, 170, 170);
+    perspective: 100px;
+    perspective-origin: center;
+    transform-style: preserve-3d;
+}
+.transform__flip-fone{
+position: relative;
+width: 250px;
+height: 250px;
+}
+.transform__style,
+.transform__transform-origin,
+.transform__matrix,
+.transform__skew,
+.transform__rotate,
+.transform__rotate3d,
+.transform__translate,
+.transform__scale {
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.58);
+}
+    .transform__flip{
+        border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.58);
+        transform: rotate(0deg);
+        backface-visibility: hidden;
+        background-color: rgb(202, 170, 170);
+
+}
+.transform__flip-back,
+.transform__flip{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.transform__flip-back{
+    background-color: rgb(138, 209, 209);
+    transform: rotate(180deg);
+}
+.transform__translate-fone:hover .transform__translate{
+    transform: translate(20px, 20px);
+}
+.transform__scale-fone:hover .transform__scale{
+    transform: scale(.7);
+}
+.transform__rotate-fone:hover .transform__rotate{
+    transform: rotate(20deg);
+}
+.transform__skew-fone:hover .transform__skew{
+    transform: skew(-20deg, 0deg);
+}
+.transform__matrix-fone:hover .transform__matrix{
+    transform: matrix(0.5, .2, 0.1, 0.5, 10, 15);
+}
+.transform__transform-origin-fone:hover .transform__transform-origin{
+    transform-origin: 70%, 70%;
+    transform: rotate(10deg);
+}
+.transform__style-fone:hover .transform__style{
+    transform: rotateY(10deg);
+}
+.transform__flip-fone:hover .transform__flip-back{
+    transform: rotateY(0deg);
+}
+.transform__flip-fone:hover .transform__flip{
+    transform: rotateY(180deg);
+}
+
+.transform__rotate-fone:hover .transform__rotate3d{
+    transform: rotate3d(50 ,0 ,0 ,30deg);
+}
+.main-header,
+.header{
+width: 100%;
+height: 150px;
+background: radial-gradient(circle, rgba(187,146,164,0.7567401960784313) 3%, rgba(41,189,121,1) 100%);;
+padding: 50px;
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
