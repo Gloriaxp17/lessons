@@ -179,15 +179,23 @@ visibility: visible;
 .container{
     width: 800%;
     height: 300px;
-    background: url("../img/cartoon.jpg") repeat-x;
-    margin-top: 200px;
     animation: move 5s linear infinite normal none;
+    background: url("../img/cartoon.jpg");
+    margin-top: 200px;
+}
+.fone{
+    width: 800%;
+    height: 300px;
+    background: url("../img/cartoon.jpg");
+   margin-top: 200px; 
+}
+.box-car{
+    
 }
 @keyframes move {
 	0% {
 		transform: translateX(500px);}
 }
-
 .main-header,
 .header{
 width: 100%;
@@ -201,10 +209,59 @@ padding: 50px;
     font-weight: 700;
     font-size: 50px;
 }
-.border{
+.box-clock {
+    width: 100%;
     margin: 100px;
-    width: 50px;
-    height: 50px;
-    background-color: blueviolet;
-    border-radius: 47% 53% 49% 51% / 95% 100% 0% 5%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.clock {
+    margin: 0 auto 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.twelve {
+    position: relative;
+    left: 83px;
+}
+.six {
+    position: relative;
+    top: 137px;
+    left: 90px;
+}
+.three {
+    position: relative;
+    left: 178px;
+    top: 20px;
+}
+.nine {
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+}
+.arrow {
+    width: 5px;
+    height: 70px;
+    background-color: black;
+    position: relative;
+    left: 591px;
+    bottom: 250px;
+}
+.center{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 95px;
+    bottom: 25px;
+    transform-origin: 55px 0;
+    animation: arrow 60s steps(1 start) 0 infinite ;
+}
+@keyframes arrow{
+    0%{
+        transform: rotate(360deg);
+    }
 }
