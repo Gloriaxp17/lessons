@@ -1,0 +1,322 @@
+@import url("fonts.css");
+/* Скидання стилів */
+@import url("reset.css");
+
+
+.header-menu{
+   margin-top: 50px;
+   width: 100%;
+}
+main{
+    width: 100%;
+}
+.header {
+    max-width: 1240px;
+    min-height: 46px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Causten", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 auto;
+}
+.logo {
+    width: 91px;
+    height: 45px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+.search{
+    width: 184px;
+    height: 46px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    color: #807D7E;
+    font-weight: 500;
+    background: url("../img/search.svg") 18px 15px no-repeat;
+    padding:  13px 48px 13px 48px;
+}
+.language{
+    display: flex;
+    gap: 19px;
+    margin-top: 10px;
+    position: relative;
+    left: 120px;
+}
+.language__name {
+    color: #333333;
+    font-weight: 400;
+}
+.language__choose {
+    margin-top: 9px;
+}
+.submenu {
+    font-weight: 500;
+    display: flex;
+    gap:29px;
+}
+.login {
+    color: #FFFFFF;
+    width: 140px;
+    height: 46px;
+    background-color: #8A33FD;
+    border-radius: 8px;
+    padding: 12px 48px 12px 48px;
+
+}
+.login:hover{
+    background-color: #6933af; 
+    box-shadow: 0 0 10px #333333; 
+}
+.sign-up {
+    color: #8A33FD;
+    border: 1px solid #3C4242;
+    width: 156px;
+    height: 46px;
+    border-radius: 8px;
+    padding: 12px 48px 12px 48px;
+    white-space: nowrap;
+    transition: all 0.3s;
+}
+.sign-up:hover{
+    box-shadow: 0 0 10px #333333; 
+    color: #6933af;
+}
+.page {
+    max-width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title {
+    font-family: "CoreSansC", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.5;
+    color: #3C4242;
+    padding-left: 27px;
+    margin-bottom: 70px;
+}
+.title::before{
+    content: "";
+    width: 6px;
+    height: 30px;
+    flex: 0 0 6px;
+    background-color: #8A33FD;
+    border-radius: 10px;
+    position: relative;
+    top: 54px;
+    right: 27px;
+}
+.block-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1240px;
+    margin-bottom: 50px;
+}
+.card {
+    max-width: 270px;
+}
+.card__photo {
+    width: 100%;
+    height: 100%;
+    max-height: 393px;
+    max-width: 270px;
+    flex: 0 1 393px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-bottom: 15px;
+}
+.card__photo:hover{
+    scale: 1.02;
+}
+.card__photo img{
+    width: 100%;
+    height: 100%;
+}
+.card__title {
+    color: #2A2F2F;
+    font-family: "Causten",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.8;
+    transition: all 0.3s;
+}
+.card__title:hover{
+    scale: 1.08;
+    color: #494747;
+}
+.card__name {
+    color: #7F7F7F;
+    font-family: "Causten", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.card__link{
+    position: relative;
+    left: 245px;
+    bottom: 35px;
+    transition: all 0.3s;
+}
+.card__link:hover{
+    scale: 1.5;
+}
+.block-wishlist {
+    display: flex;
+    margin: 0 auto;
+}
+.wishlist {
+    max-width: 894px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 60px;
+    margin-bottom: 50px;
+}
+.wishlist__title {
+    font-family: "Core Sans C", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #3C4242;
+    display: flex;
+}
+.wishlist__card,
+.wishlist__card-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+.wishlist__cross {
+    margin-top: 44px;
+}
+.wishlist__photo {
+    max-width:110px;
+    max-height: 110px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    flex: 0 0 110px;
+}
+.wishlist__list,
+.wishlist__lists {
+    display: flex;
+    flex-direction: column;
+    color: #3C4242;
+    font-family: "Causten",sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    row-gap: 20px;
+    margin-top: 5px;
+    flex:1 0 310px;
+}
+.wishlist__color {
+    display: flex;
+    flex-direction: row;
+}
+.wishlist__choose-color {
+    color: #807D7E;
+    font-weight: 400;
+}
+.wishlist__price,
+.wishlist__prices {
+    color: #807D7E;
+    font-weight: 700;
+    font-family: "Causten",sans-serif;
+    font-size: 22px;
+    margin-top: 38px;
+}
+.wishlist__cart,
+.view {
+    color: #FFFFFF;
+    font-family: "Causten",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 143px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #8A33FD;
+    padding: 14px 28px;
+    transition: all 0.3s;
+    margin-top: 26px;
+    flex-grow: 1;
+}
+.wishlist__cart:hover,
+.view:hover{
+    box-shadow: 0 0 10px #333333; 
+    background-color: #6933af;
+}
+.price-block{
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 100px;
+}
+.orders{
+    display: flex;
+    row-gap: 30px;
+    flex-direction: column;
+}
+.order {
+    max-width: 895px;
+    min-height: 135px;
+    display: flex;
+background-color: #F6F6F6;
+padding: 28px 47px;
+}
+.order__title {
+    font-family: "Causten",sans-serif;
+    color: #3C4242;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+.order__date {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.order__list-date {
+    color: #807D7E;
+font-family: "Causten",sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 1.2;
+flex-direction: row;
+display: flex;
+}
+.order__order {
+color: #BEBCBD;
+font-family: "Causten",sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.2;
+
+}
+.order__status {
+margin-top: 14px;
+}
+.wishlist__prices{
+margin-top: -2px;
+font-size: 18px;
+}
+.wishlist__lists{
+    gap: 5px;
+    margin-top: 0px;
+}
+.view{
+    flex-grow: 0;
+    margin-right: 320px;
+    font-size: 18px;
+}
+.wishlist__card-bottom{
+    font-size: 16px;
+}
