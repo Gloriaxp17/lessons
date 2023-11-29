@@ -222,20 +222,19 @@ main{
 }
 .wishlist__list,
 .order__lists {
-   
     color: #3C4242;
     font-family: "Causten",sans-serif;
     font-weight: 700;
     font-size: 22px;
-   
     padding-top: 5px;
-   
 }
 
-.order__color {
-  margin-bottom: 20px;
+.order__color ,
+.wishlist__color{
+    margin-bottom: 20px;
 }
-.order__name{
+.order__name,
+.wishlist__name{
     margin-bottom: 20px;
     display: flex;
     flex: 1 1 300px;
@@ -346,10 +345,7 @@ font-size: 16px;
     padding: 0;
     font-size: 16px;
 }
-.wishlist__lists{
-    gap: 5px;
-    margin-top: 0px;
-}
+
 .view{
     flex-grow: 0;
     margin-right: 320px;
