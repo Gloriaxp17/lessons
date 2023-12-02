@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson16</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header></header>
+        <main>
+            <div class="consulting-container">
+                <div class="consulting">
+                    <div class="consulting__header">
+                        <div class="consulting__subtitle-header">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="consulting__title-header">
+                            <h1>Request A Call Back !</h1>
+                        </div>
+                    </div>
+                    <form class="consulting__form" action="#" method="post" enctype="multipart/form-data">
+                        <div class="consulting__container"><input class="consulting__item" placeholder="Your Name"
+                                tabindex="1" type="text" name="username"></div>
+                        <div class="consulting__container"><input class="consulting__item" tabindex="2"
+                                placeholder="Phone Number" name="userphone" type="tel"></div>
+                        <div class="consulting__container"><input class="consulting__item" placeholder="Email Address"
+                                tabindex="3" type="email" name="useremail"></div>
+                        <div class="consulting__container"><input class="consulting__item" placeholder="Subject"
+                                tabindex="4" type="text" name="subject"></div>
+                        <div class="consulting__text-form"><textarea class="consulting__text" name="text" tabindex="5"
+                                placeholder="Message..."></textarea>
+                            <div class="consulting__btn"><button class="consulting__button" type="submit"
+                                    tabindex="6">Submit</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="eu">
+                <div class="eu__container">
+                    <div class="eu__header">
+                        <h2 class="eu__title">My Info</h2>
+                        <h3 class="eu__subtitle">Add Address</h3>
+                    </div>
+                    <div class="eu-forms">
+                        <form class="eu__form" action="#" method="post" enctype="multipart/form-data">
+                            <div class="eu__block">
+                                <h4 class="eu__name">First Name*</h4>
+                                <input class="eu__item" placeholder="First Name" tabindex="7" type="text"
+                                    name="username">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">Last Name*</h4>
+                                <input class="eu__item" placeholder="Last Name" tabindex="8" type="text"
+                                    name="userlastname">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">Country / Region*</h4>
+                                <input class="eu__item" placeholder="Country / Region" tabindex="9" type="text"
+                                    name="userhome">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">Company Name</h4>
+                                <input class="eu__item" placeholder="Company (optional)" tabindex="10" type="text"
+                                    name="usercompany">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">Street Address*</h4>
+                                <input class="eu__item" placeholder="House number and street name" tabindex="11"
+                                    type="text" name="useradress">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">Apt, suite, unit</h4>
+                                <input class="eu__item" placeholder="apartment, suite, unit, etc. (optional)"
+                                    tabindex="12" type="text" name="userapartment">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">City*</h4>
+                                <input class="eu__item" placeholder="Town / City" tabindex="13" type="text"
+                                    name="usercity">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">State*</h4>
+                                <div><select class="eu__item" tabindex="14" name="state">
+                                        <option value="state1">state</option>
+                                        <option value="state2">state</option>
+                                        <option value="state3">state</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">Phone*</h4>
+                                <input class="eu__item" placeholder="Phone" tabindex="15" type="tel" name="usertel">
+                            </div>
+                            <div class="eu__block">
+                                <h4 class="eu__name">Postal Code*</h4>
+                                <input class="eu__item" placeholder="Postal Code" tabindex="16" type="number"
+                                    name="userpost">
+                            </div>
+
+
+                            <div class="eu__text">
+                                <h4 class="eu__name">Delivery Instruction</h4>
+                                <textarea class="eu__textarea" name="text" tabindex="17"
+                                    placeholder="Delivery Instruction"></textarea>
+                            </div>
+                            <div class="eu__check">
+                                <div><input id="set" class="eu__checkbox" tabindex="18" type="checkbox" name="set"
+                                        value="shipping">
+                                    <label class="eu__label" for="set">Set
+                                        as
+                                        default shipping
+                                        address</label>
+                                </div>
+                                <div><input id="set1" class="eu__checkbox" tabindex="19" type="checkbox" name="set1"
+                                        value="billing">
+                                    <label class="eu__label" for="set1">Set as
+                                        default billing address</label>
+                                </div>
+                            </div>
+                            <div class="eu__buttons">
+                                <div class="eu__save-button"><button tabindex="20" type="submit">Save</button></div>
+                                <div class="eu__reset-button"><button tabindex="21" type="reset">Cancel</button></div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="check">
+                <div class="check__container">
+                    <div class="check__header">
+                        <h2 class="check__title">Check Out</h2>
+                        <h3 class="check__subtitle">Billing Details</h3>
+                    </div>
+                    <form class="check__form" action="#" method="post" enctype="multipart/form-data">
+                        <div class="check__forms">
+                            <div class="check__block">
+                                <h4 class="check__name">First Name*</h4>
+                                <input class="check__item" placeholder="First Name" tabindex="22" type="text"
+                                    name="username">
+                            </div>
+                            <div class="check__block">
+                                <h4 class="check__name">Last Name*</h4>
+                                <input class="check__item" placeholder="Last Name" tabindex="23" type="text"
+                                    name="usernlastname">
+                            </div>
+                            <div class="check__block">
+                                <h4 class="check__name">Country / Region*</h4>
+                                <input class="check__item" placeholder="Country / Region" tabindex="24" type="text"
+                                    name="usercountry">
+                            </div>
+                            <div class="check__block">
+                                <h4 class="check__name">Company Name</h4>
+                                <input class="check__item" placeholder="Company (optional)" tabindex="25" type="text"
+                                    name="usercompany">
+                            </div>
+                            <div class="check__block">
+                                <h4 class="check__name">Street Address*</h4>
+                                <input class="check__item" placeholder="House number and street name" tabindex="26"
+                                    type="text" name="userstreet">
+                            </div>
+                            <div class="check__block">
+                                <h4 class="check__name">Apt, suite, unit</h4>
+                                <input class="check__item" placeholder="apartment, suite, unit, etc. (optional)"
+                                    tabindex="27" type="text" name="useradress">
+                            </div>
+                        </div>
+                        <div class="check__adress">
+                            <div class="check__adress-block">
+                                <h4 class="check__name">City*</h4>
+                                <input class="check__item" placeholder="Town / City" tabindex="28" type="text"
+                                    name="usercity">
+                            </div>
+                            <div class="check__adress-block">
+                                <h4 class="check__name">State*</h4>
+                                <div><select class="check__item" tabindex="29" name="state">
+                                        <option value="state1">state</option>
+                                        <option value="state2">state</option>
+                                        <option value="state3">state</option>
+                                    </select></div>
+                            </div>
+                            <div class="check__adress-block">
+                                <h4 class="check__name">Postal Code*</h4>
+                                <input class="check__item" placeholder="Postal Code" tabindex="30" type="tel"
+                                    name="userpost">
+                            </div>
+                        </div>
+                        <div class="check__phone">
+                            <h4 class="check__name">Phone*</h4>
+                            <input class="check__item" placeholder="Phone" tabindex="31" type="tel" name="userphone">
+                        </div>
+                        <div class="check__continue">
+                            <button class="check__btn-continue" tabindex="32" type="submit">Continue to
+                                delivery</button>
+                        </div>
+                        <div class="check__save">
+                            <input tabindex="33" type="checkbox" name="save" value="yes"> Save my information for a
+                            faster checkout
+                        </div>
+                        <div class="check__shipping-adress">
+                            <h3>Shipping Address</h3>
+                            <h4>Select the address that matches your card or payment method.</h4>
+                            <div class="check__radios">
+                                <div class="check__radio"> <input tabindex="34" type="radio" name="adress"
+                                        value="same">Same
+                                    as Billing address</div>
+                                <div class="check__radio"> <input tabindex="34" type="radio" name="adress"
+                                        value="different">Use
+                                    a different shipping address</div>
+                            </div>
+                        </div>
+                        <div class="check__shipping-method">
+                            <h3>Shipping Method</h3>
+                            <div class="check__methods">
+                                <div class="check__meth">Arrives by Monday, June 7</div>
+                                <div class="check__meth check__meth--flex">
+                                    <div> Delivery Charges</div><span>$5.00</span>
+                                </div>
+                                <div class="check__meth"><span class="check__span-meth"> Additional fess may
+                                        apply</span></div>
+                            </div>
+                        </div>
+                        <div class="check__pay">
+
+                            <div class="check__radio"> <input tabindex="35" type="radio" name="pay" value="same">Credit
+                                Card</div>
+                            <div class="check__comment-pay">We accept all major credit cards.</div>
+                            <div class="check__img-pay"><img src="img/1png.png" alt="logo">
+                                <img src="img/2.png" alt="logo">
+                                <img src="img/3.png" alt="logo">
+                                <img src="img/4.png" alt="logo">
+                            </div>
+                            <div class="check__forms-pay">
+                                <div> <input class="check__form-pay" placeholder="Card number" tabindex="36" type="tel"
+                                        name="userscard"></div>
+                                <div> <input class="check__form-pay" placeholder="Name of card" tabindex="37"
+                                        type="text" name="userscardname"></div>
+                                <div> <input class="check__form-pay" placeholder="Expiration date (MM/YY)" tabindex="38"
+                                        type="text" name="userscarddate"></div>
+                                <div> <input class="check__form-pay" placeholder="Security Code" tabindex="39"
+                                        type="password" name="userscardpassword"><img class="check__img-form-pay"
+                                        src="img/eye.svg" alt="img">
+                                </div>
+                            </div>
+                            <div class="check__radio check__radio--before"> <input tabindex="35" type="radio" name="pay"
+                                    value="different">Cash on delivery</div>
+                            <div class="check__comment-pay">Pay with cash upon delivery.</div>
+                            <div class="check__radio"> <input tabindex="35" type="radio" name="pay"
+                                    value="different">Paypol
+                            </div>
+
+                        </div>
+                        <div class="check__pay-now">
+                            <a href="#">Pay Now</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </main>
+        <footer>
+        </footer>
+    </div>
+
+</body>
+
+</html>
