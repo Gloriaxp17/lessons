@@ -120,12 +120,13 @@
                                     <label class="eu__label" for="set1">Set as
                                         default billing address</label>
                                 </div>
-                            </div>
-                            <div class="eu__buttons">
-                                <div class="eu__save-button"><button tabindex="20" type="submit">Save</button></div>
-                                <div class="eu__reset-button"><button tabindex="21" type="reset">Cancel</button></div>
-                            </div>
 
+                                <div class="eu__buttons">
+                                    <div class="eu__save-button"><button tabindex="20" type="submit">Save</button></div>
+                                    <div class="eu__reset-button"><button tabindex="21" type="reset">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -198,20 +199,22 @@
                             <button class="check__btn-continue" tabindex="32" type="submit">Continue to
                                 delivery</button>
                         </div>
-                        <div class="check__save">
-                            <input tabindex="33" type="checkbox" name="save" value="yes"> Save my information for a
-                            faster checkout
+                        <div>
+
+                            <input class="check__save" id="save" tabindex="33" type="checkbox" name="save" value="yes">
+                            <label class="check__lab-save" for="save"> Save my information for a
+                                faster checkout</label>
                         </div>
                         <div class="check__shipping-adress">
                             <h3>Shipping Address</h3>
                             <h4>Select the address that matches your card or payment method.</h4>
                             <div class="check__radios">
-                                <div class="check__radio"> <input tabindex="34" type="radio" name="adress"
-                                        value="same">Same
-                                    as Billing address</div>
-                                <div class="check__radio"> <input tabindex="34" type="radio" name="adress"
-                                        value="different">Use
-                                    a different shipping address</div>
+                                <div> <input class="check__radio" id="adress1" tabindex="34" type="radio" name="adress"
+                                        value="same"><label class="check__lab-radio" for="adress1">Same
+                                        as Billing address</label></div>
+                                <div> <input class="check__radio" id="adress2" tabindex="34" type="radio" name="adress"
+                                        value="different"><label class="check__lab-radio" for="adress2">Use
+                                        a different shipping address</label></div>
                             </div>
                         </div>
                         <div class="check__shipping-method">
@@ -227,8 +230,9 @@
                         </div>
                         <div class="check__pay">
 
-                            <div class="check__radio"> <input tabindex="35" type="radio" name="pay" value="same">Credit
-                                Card</div>
+                            <div> <input id="adress3" class="check__radio" tabindex="35" type="radio" name="pay"
+                                    value="same"> <label class="check__lab-radio" for="adress3">Credit
+                                    Card</label></div>
                             <div class="check__comment-pay">We accept all major credit cards.</div>
                             <div class="check__img-pay"><img src="img/1png.png" alt="logo">
                                 <img src="img/2.png" alt="logo">
@@ -247,11 +251,13 @@
                                         src="img/eye.svg" alt="img">
                                 </div>
                             </div>
-                            <div class="check__radio check__radio--before"> <input tabindex="35" type="radio" name="pay"
-                                    value="different">Cash on delivery</div>
+                            <div class="check__line"> <input id="cash" class="check__radio" tabindex="35" type="radio"
+                                    name="pay" value="different"><label class="check__lab-radio" for="cash">Cash on
+                                    delivery</label>
+                            </div>
                             <div class="check__comment-pay">Pay with cash upon delivery.</div>
-                            <div class="check__radio"> <input tabindex="35" type="radio" name="pay"
-                                    value="different">Paypol
+                            <div> <input id="pay" class="check__radio" tabindex="35" type="radio" name="pay"
+                                    value="different"><label class="check__lab-radio" for="pay">Paypol</label>
                             </div>
 
                         </div>
