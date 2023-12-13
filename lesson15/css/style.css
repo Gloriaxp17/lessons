@@ -170,11 +170,8 @@ display: flex;
     position: relative;
     left: 245px;
     bottom: 35px;
-    transition: all 0.3s;
 }
-.card__link:hover{
-    transform:scale(1.5) ;
-}
+
 .block-wishlist {
     margin: 0 auto;
     margin-bottom: 150px;
