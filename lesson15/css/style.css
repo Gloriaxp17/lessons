@@ -20,6 +20,7 @@ main{
     line-height: 1.2;
     margin: 0 auto;
     margin-bottom: 100px;
+    gap: 29px;
 }
 .logo {
     width: 91px;
@@ -27,8 +28,7 @@ main{
 }
 .menu {
     display: flex;
-    justify-content: space-between;
-    gap: 22px;
+    gap: 210px;
 }
 .search{
     width: 184px;
@@ -39,20 +39,22 @@ main{
     font-weight: 500;
     background: url("../img/search.svg") 18px 15px no-repeat;
     padding:  13px 48px 13px 48px;
+    display: flex;
+    flex:1 1 auto;
 }
 .language{
     display: flex;
-    gap: 19px;
-    margin-top: 10px;
-    position: relative;
-    left: 120px;
+    column-gap: 19px;
+    align-items: center;
+    
 }
 .language__name {
     color: #333333;
     font-weight: 400;
 }
 .language__choose {
-    margin-top: 9px;
+align-content: center;
+display: flex;
 }
 .submenu {
     font-weight: 500;
@@ -97,9 +99,9 @@ main{
     font-size: 34px;
     line-height: 1.5;
     color: #3C4242;
-    padding-left: 27px;
     margin-bottom: 70px;
     display: flex;
+    gap: 27px;
 }
 .title::before{
     content: "";
@@ -108,7 +110,7 @@ main{
     flex: 0 0 6px;
     background-color: #8A33FD;
     border-radius: 10px;
-    margin:10px 27px 0 0;
+    align-self: center;
 }
 .block-cards {
     display: flex;
@@ -121,6 +123,10 @@ main{
 }
 .card {
     max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 270px;
+    column-gap: 10px;
 }
 .card__photo {
     width: 100%;
@@ -170,8 +176,8 @@ main{
     transform:scale(1.5) ;
 }
 .block-wishlist {
-    display: flex;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 .wishlist {
     max-width: 894px;
@@ -179,7 +185,6 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     row-gap: 60px;
-    margin-bottom: 150px;
 }
 .wishlist__title {
     font-family: "Core Sans C", sans-serif;
@@ -189,10 +194,8 @@ main{
     color: #3C4242;
     display: flex;
 }
-.wishlist__card,
-.order__card-bottom {
+.wishlist__card {
     display: flex;
-    flex-direction: row;
     gap: 36px;
 }
 .wishlist__cross {
@@ -204,8 +207,6 @@ main{
     width:110px;
     height: 110px;
     border-radius: 4px;
-    height: 100%;
-    width: 100%;
     overflow: hidden;
     flex: 0 0 110px;
     display: flex;
@@ -214,8 +215,6 @@ main{
     width:96px;
     height: 96px;
     border-radius: 4px;
-    height: 100%;
-    width: 100%;
     overflow: hidden;
     flex: 0 0 96px;
     display: flex;
@@ -228,7 +227,6 @@ main{
     font-size: 22px;
     padding-top: 5px;
 }
-
 .order__color ,
 .wishlist__color{
     margin-bottom: 20px;
@@ -236,8 +234,7 @@ main{
 .order__name,
 .wishlist__name{
     margin-bottom: 20px;
-    display: flex;
-    flex: 1 1 300px;
+    max-width: 300px;
 }
 .order__choose-color,
 .wishlist__choose-color {
@@ -262,7 +259,6 @@ main{
     font-weight: 700;
     font-family: "Causten",sans-serif;
     font-size: 22px;
-    margin-top: 38px;
 }
 .wishlist__cart,
 .view {
@@ -275,7 +271,6 @@ main{
     background-color: #8A33FD;
     padding: 14px 28px;
     transition: all 0.3s;
-    margin-top: 26px;
     flex-shrink: 0;
     display: flex;
 
@@ -288,8 +283,8 @@ main{
 .price-block{
     gap: 50px;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     margin-left: 100px;
 }
 .orders{
@@ -303,6 +298,7 @@ main{
     display: flex;
 background-color: #F6F6F6;
 padding: 28px 47px;
+margin-bottom: 30px;
 }
 .order__title {
     font-family: "Causten",sans-serif;
@@ -310,12 +306,13 @@ padding: 28px 47px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 14px;
+    
 }
 .order__date {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
+    column-gap: 10px;
 }
 .order__list-date {
     color: #807D7E;
@@ -323,8 +320,7 @@ font-family: "Causten",sans-serif;
 font-size: 14px;
 font-weight: 700;
 line-height: 1.2;
-flex-direction: row;
-display: flex;
+margin-bottom: 14px;
 }
 .order__order {
 color: #BEBCBD;
@@ -344,19 +340,17 @@ font-size: 16px;
 .order__lists{
     padding: 0;
     font-size: 16px;
+    flex:1 1 auto;
 }
 
 .view{
     flex-grow: 0;
-    margin-right: 320px;
-    font-size: 18px;
-}
-.wishlist__card-bottom{
-    font-size: 16px;
 }
 .order__right{
     flex: 1 1 auto;
     display: flex;
     align-items: center;
     gap: 25px;
+    max-width: 894px;
+    font-size: 16px;
 }
