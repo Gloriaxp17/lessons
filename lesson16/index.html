@@ -15,12 +15,12 @@
             <div class="consulting-container">
                 <div class="consulting">
                     <div class="consulting__header">
-                        <div class="consulting__subtitle-header">
-                            <h2>Contact Us</h2>
-                        </div>
-                        <div class="consulting__title-header">
-                            <h1>Request A Call Back !</h1>
-                        </div>
+                        <h2 class="consulting__subtitle-header">
+                            Contact Us
+                        </h2>
+                        <h1 class="consulting__title-header">
+                            Request A Call Back !
+                        </h1>
                     </div>
                     <form class="consulting__form" action="#" method="post" enctype="multipart/form-data">
                         <div class="consulting__container"><input class="consulting__item" placeholder="Your Name"
@@ -47,64 +47,70 @@
                     </div>
                     <div class="eu-forms">
                         <form class="eu__form" action="#" method="post" enctype="multipart/form-data">
-                            <div class="eu__block">
-                                <h4 class="eu__name">First Name*</h4>
-                                <input class="eu__item" placeholder="First Name" tabindex="7" type="text"
-                                    name="username">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">Last Name*</h4>
-                                <input class="eu__item" placeholder="Last Name" tabindex="8" type="text"
-                                    name="userlastname">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">Country / Region*</h4>
-                                <input class="eu__item" placeholder="Country / Region" tabindex="9" type="text"
-                                    name="userhome">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">Company Name</h4>
-                                <input class="eu__item" placeholder="Company (optional)" tabindex="10" type="text"
-                                    name="usercompany">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">Street Address*</h4>
-                                <input class="eu__item" placeholder="House number and street name" tabindex="11"
-                                    type="text" name="useradress">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">Apt, suite, unit</h4>
-                                <input class="eu__item" placeholder="apartment, suite, unit, etc. (optional)"
-                                    tabindex="12" type="text" name="userapartment">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">City*</h4>
-                                <input class="eu__item" placeholder="Town / City" tabindex="13" type="text"
-                                    name="usercity">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">State*</h4>
-                                <div><select class="eu__item" tabindex="14" name="state">
-                                        <option value="state1">state</option>
-                                        <option value="state2">state</option>
-                                        <option value="state3">state</option>
-                                    </select>
+                            <div class="eu__form-box">
+                                <div class="eu__block">
+                                    <label class="eu__name" for="username">First Name*</label>
+                                    <input id="username" class="eu__item" placeholder="First Name" tabindex="7"
+                                        type="text" name="username">
+                                </div>
+
+
+                                <div class="eu__block">
+                                    <label for="userlastname" class="eu__name">Last Name*</label>
+                                    <input id="userlastname" class="eu__item" placeholder="Last Name" tabindex="8"
+                                        type="text" name="userlastname">
+                                </div>
+
+                                <div class="eu__block">
+                                    <label for="userhome" class="eu__name">Country / Region*</label>
+                                    <input id="userhome" class="eu__item" placeholder="Country / Region" tabindex="9"
+                                        type="text" name="userhome">
+                                </div>
+                                <div class="eu__block">
+                                    <label for="usercompany" class="eu__name">Company Name</label>
+                                    <input id="usercompany" class="eu__item" placeholder="Company (optional)"
+                                        tabindex="10" type="text" name="c">
+                                </div>
+                                <div class="eu__block">
+                                    <label for="useradress" class="eu__name">Street Address*</label>
+                                    <input id="useradress" class="eu__item" placeholder="House number and street name"
+                                        tabindex="11" type="text" name="useradress">
+                                </div>
+                                <div class="eu__block">
+                                    <label for="userapartment" class="eu__name">Apt, suite, unit</label>
+                                    <input id="userapartment" class="eu__item"
+                                        placeholder="apartment, suite, unit, etc. (optional)" tabindex="12" type="text"
+                                        name="userapartment">
+                                </div>
+                                <div class="eu__block">
+                                    <label for="usercity" class="eu__name">City*</label>
+                                    <input id="usercity" class="eu__item" placeholder="Town / City" tabindex="13"
+                                        type="text" name="usercity">
+                                </div>
+                                <div class="eu__block">
+                                    <label for="state" class="eu__name">State*</label>
+                                    <div><select id="state" class="eu__item" tabindex="14" name="state">
+                                            <option value="state1">state</option>
+                                            <option value="state2">state</option>
+                                            <option value="state3">state</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="eu__block">
+                                    <label for="usertel" class="eu__name">Phone*</label>
+                                    <input id="usertel" class="eu__item" placeholder="Phone" tabindex="15" type="tel"
+                                        name="usertel">
+                                </div>
+                                <div class="eu__block">
+                                    <label for="userpost" class="eu__name">Postal Code*</label>
+                                    <input id="userpost" class="eu__item" placeholder="Postal Code" tabindex="16"
+                                        type="number" name="userpost">
                                 </div>
                             </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">Phone*</h4>
-                                <input class="eu__item" placeholder="Phone" tabindex="15" type="tel" name="usertel">
-                            </div>
-                            <div class="eu__block">
-                                <h4 class="eu__name">Postal Code*</h4>
-                                <input class="eu__item" placeholder="Postal Code" tabindex="16" type="number"
-                                    name="userpost">
-                            </div>
-
 
                             <div class="eu__text">
-                                <h4 class="eu__name">Delivery Instruction</h4>
-                                <textarea class="eu__textarea" name="text" tabindex="17"
+                                <label for="text" class="eu__name">Delivery Instruction</label>
+                                <textarea id="text" class="eu__textarea" name="text" tabindex="17"
                                     placeholder="Delivery Instruction"></textarea>
                             </div>
                             <div class="eu__check">
@@ -115,14 +121,15 @@
                                         default shipping
                                         address</label>
                                 </div>
-                                <div><input id="set1" class="eu__checkbox" tabindex="19" type="checkbox" name="set1"
-                                        value="billing">
+                                <div class="eu__label-box"><input id="set1" class="eu__checkbox" tabindex="19"
+                                        type="checkbox" name="set1" value="billing">
                                     <label class="eu__label" for="set1">Set as
                                         default billing address</label>
                                 </div>
 
                                 <div class="eu__buttons">
-                                    <div class="eu__save-button"><button tabindex="20" type="submit">Save</button></div>
+                                    <div class="eu__save-button"><button tabindex="20" type="submit">Save</button>
+                                    </div>
                                     <div class="eu__reset-button"><button tabindex="21" type="reset">Cancel</button>
                                     </div>
                                 </div>
@@ -141,59 +148,61 @@
                     <form class="check__form" action="#" method="post" enctype="multipart/form-data">
                         <div class="check__forms">
                             <div class="check__block">
-                                <h4 class="check__name">First Name*</h4>
-                                <input class="check__item" placeholder="First Name" tabindex="22" type="text"
-                                    name="username">
+                                <label for="username1" class="check__name">First Name*</label>
+                                <input id="username1" class="check__item" placeholder="First Name" tabindex="22"
+                                    type="text" name="username">
                             </div>
                             <div class="check__block">
-                                <h4 class="check__name">Last Name*</h4>
-                                <input class="check__item" placeholder="Last Name" tabindex="23" type="text"
-                                    name="usernlastname">
+                                <label for="usernlastname1" class="check__name">Last Name*</label>
+                                <input id="usernlastname1" class="check__item" placeholder="Last Name" tabindex="23"
+                                    type="text" name="usernlastname">
                             </div>
                             <div class="check__block">
-                                <h4 class="check__name">Country / Region*</h4>
-                                <input class="check__item" placeholder="Country / Region" tabindex="24" type="text"
-                                    name="usercountry">
+                                <label for="usercountry1" class="check__name">Country / Region*</label>
+                                <input id="usercountry1" class="check__item" placeholder="Country / Region"
+                                    tabindex="24" type="text" name="usercountry">
                             </div>
                             <div class="check__block">
-                                <h4 class="check__name">Company Name</h4>
-                                <input class="check__item" placeholder="Company (optional)" tabindex="25" type="text"
-                                    name="usercompany">
+                                <label for="usercompany1" class="check__name">Company Name</label>
+                                <input id="usercompany1" class="check__item" placeholder="Company (optional)"
+                                    tabindex="25" type="text" name="usercompany">
                             </div>
                             <div class="check__block">
-                                <h4 class="check__name">Street Address*</h4>
-                                <input class="check__item" placeholder="House number and street name" tabindex="26"
-                                    type="text" name="userstreet">
+                                <label for="userstreet" class="check__name">Street Address*</label>
+                                <input id="userstreet" class="check__item" placeholder="House number and street name"
+                                    tabindex="26" type="text" name="userstreet">
                             </div>
                             <div class="check__block">
-                                <h4 class="check__name">Apt, suite, unit</h4>
-                                <input class="check__item" placeholder="apartment, suite, unit, etc. (optional)"
-                                    tabindex="27" type="text" name="useradress">
+                                <label for="useradress1" class="check__name">Apt, suite, unit</label>
+                                <input id="useradress1" class="check__item"
+                                    placeholder="apartment, suite, unit, etc. (optional)" tabindex="27" type="text"
+                                    name="useradress">
                             </div>
                         </div>
                         <div class="check__adress">
                             <div class="check__adress-block">
-                                <h4 class="check__name">City*</h4>
-                                <input class="check__item" placeholder="Town / City" tabindex="28" type="text"
-                                    name="usercity">
+                                <label for="usercity1" class="check__name">City*</label>
+                                <input id="usercity1" class="check__item" placeholder="Town / City" tabindex="28"
+                                    type="text" name="usercity">
                             </div>
                             <div class="check__adress-block">
-                                <h4 class="check__name">State*</h4>
-                                <div><select class="check__item" tabindex="29" name="state">
+                                <label for="state1" class="check__name">State*</label>
+                                <div><select id="state1" class="check__item" tabindex="29" name="state">
                                         <option value="state1">state</option>
                                         <option value="state2">state</option>
                                         <option value="state3">state</option>
                                     </select></div>
                             </div>
                             <div class="check__adress-block">
-                                <h4 class="check__name">Postal Code*</h4>
-                                <input class="check__item" placeholder="Postal Code" tabindex="30" type="tel"
-                                    name="userpost">
+                                <label for="userpost1" class="check__name">Postal Code*</label>
+                                <input id="userpost1" class="check__item" placeholder="Postal Code" tabindex="30"
+                                    type="tel" name="userpost">
                             </div>
                         </div>
                         <div class="check__phone">
-                            <h4 class="check__name">Phone*</h4>
-                            <input class="check__item" placeholder="Phone" tabindex="31" type="tel" name="userphone">
+                            <label for="userphone2" class="check__name">Phone*</label>
+                            <input id="userphone2" class="check__item" placeholder="Phone" tabindex="31" type="tel"
+                                name="userphone">
                         </div>
                         <div class="check__continue">
                             <button class="check__btn-continue" tabindex="32" type="submit">Continue to
@@ -221,24 +230,28 @@
                             <h3>Shipping Method</h3>
                             <div class="check__methods">
                                 <div class="check__meth">Arrives by Monday, June 7</div>
+
                                 <div class="check__meth check__meth--flex">
                                     <div> Delivery Charges</div><span>$5.00</span>
                                 </div>
                                 <div class="check__meth"><span class="check__span-meth"> Additional fess may
                                         apply</span></div>
+
                             </div>
                         </div>
                         <div class="check__pay">
 
                             <div> <input id="adress3" class="check__radio" tabindex="35" type="radio" name="pay"
-                                    value="same"> <label class="check__lab-radio" for="adress3">Credit
+                                    value="same"> <label class="check__lab-radio check__lab-radio--pure"
+                                    for="adress3">Credit
                                     Card</label></div>
                             <div class="check__comment-pay">We accept all major credit cards.</div>
-                            <div class="check__img-pay"><img src="img/1png.png" alt="logo">
-                                <img src="img/2.png" alt="logo">
-                                <img src="img/3.png" alt="logo">
-                                <img src="img/4.png" alt="logo">
-                            </div>
+                            <ul class="check__img-pay">
+                                <li> <img src="img/1png.png" alt="logo"></li>
+                                <li><img src="img/2.png" alt="logo"></li>
+                                <li><img src="img/3.png" alt="logo"></li>
+                                <li><img src="img/4.png" alt="logo"></li>
+                            </ul>
                             <div class="check__forms-pay">
                                 <div> <input class="check__form-pay" placeholder="Card number" tabindex="36" type="tel"
                                         name="userscard"></div>
