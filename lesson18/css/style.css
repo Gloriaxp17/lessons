@@ -28,7 +28,9 @@ margin: 0 auto;
     z-index:10 ;
     background-color: #F5F5F5;
 }
-
+.stones__hero{
+    padding-top: 100px;
+}
 .header__container {
     gap: 15px;
     min-height: 100px;
